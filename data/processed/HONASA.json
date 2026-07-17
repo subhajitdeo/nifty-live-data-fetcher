@@ -1,22 +1,14 @@
 {
   "symbol": "HONASA",
-  "updated_at": "2026-07-16T12:11:59.985903",
-  "latest_price": 470.1,
-  "final_signal": "NEUTRAL",
+  "updated_at": "2026-07-17T12:00:12.070811",
+  "latest_price": 466.95,
+  "final_signal": "STRONG_BUY",
   "signal_summary": {
-    "buy_signals": 3,
-    "sell_signals": 3,
+    "buy_signals": 4,
+    "sell_signals": 1,
     "total_indicators": 10
   },
   "candles": [
-    {
-      "time": "2025-07-16",
-      "open": 299.0,
-      "high": 299.6000061035156,
-      "low": 295.3500061035156,
-      "close": 296.95001220703125,
-      "volume": 238274
-    },
     {
       "time": "2025-07-17",
       "open": 300.0,
@@ -1999,49 +1991,57 @@
       "high": 480.95001220703125,
       "low": 468.1000061035156,
       "close": 470.1000061035156,
-      "volume": 462286
+      "volume": 462414
+    },
+    {
+      "time": "2026-07-17",
+      "open": 471.8999938964844,
+      "high": 472.5,
+      "low": 461.1499938964844,
+      "close": 466.95001220703125,
+      "volume": 522960
     }
   ],
   "indicators": {
     "RSI": {
-      "value": 80.97,
-      "signal": "SELL"
-    },
-    "StochasticRSI": {
-      "value": 61.3,
+      "value": 67.37,
       "signal": "NEUTRAL"
     },
+    "StochasticRSI": {
+      "value": 0.0,
+      "signal": "BUY"
+    },
     "MACD": {
-      "value": 18.09,
+      "value": 16.98,
       "signal": "SELL"
     },
-    "MACD_Histogram": -0.72,
+    "MACD_Histogram": -1.47,
     "CCI": {
-      "value": 64.89,
+      "value": 42.28,
       "signal": "NEUTRAL"
     },
     "Williams_R": {
-      "value": -28.28,
+      "value": -47.61,
       "signal": "NEUTRAL"
     },
     "ROC": {
-      "value": 2.66,
+      "value": 0.1,
       "signal": "BUY"
     },
     "Momentum": {
-      "value": 0.6,
+      "value": 5.2,
       "signal": "BUY"
     },
     "MFI": {
-      "value": 84.2,
-      "signal": "SELL"
+      "value": 76.11,
+      "signal": "NEUTRAL"
     },
     "Ultimate_Oscillator": {
-      "value": 45.14,
+      "value": 44.14,
       "signal": "NEUTRAL"
     },
     "ADX": {
-      "value": 71.81,
+      "value": 42.9,
       "signal": "STRONG"
     },
     "SuperTrend": {
@@ -2051,76 +2051,76 @@
       "signal": "BUY"
     },
     "Parabolic_SAR": {
-      "signal": "BUY"
+      "signal": "SELL"
     },
     "Aroon": {
-      "up": 12.0,
-      "down": 88.0,
+      "up": 16.0,
+      "down": 92.0,
       "signal": "SELL"
     },
     "EMA20": {
-      "value": 453.69,
+      "value": 454.95,
       "signal": "BUY"
     },
     "EMA50": {
-      "value": 419.23,
+      "value": 421.11,
       "signal": "BUY"
     },
     "EMA100": {
-      "value": 381.58,
+      "value": 383.26,
       "signal": "BUY"
     },
     "EMA200": {
-      "value": 346.25,
+      "value": 347.24,
       "signal": "BUY"
     },
     "SMA20": {
-      "value": 451.96,
+      "value": 454.44,
       "signal": "BUY"
     },
     "SMA50": {
-      "value": 414.42,
+      "value": 416.57,
       "signal": "BUY"
     },
     "SMA200": {
-      "value": 323.07,
+      "value": 323.93,
       "signal": "BUY"
     },
     "BollingerBands": {
-      "upper": 498.73,
-      "middle": 451.96,
-      "lower": 405.19,
+      "upper": 498.81,
+      "middle": 454.44,
+      "lower": 410.06,
       "signal": "NEUTRAL"
     },
     "KeltnerChannel": {
-      "upper": 484.63,
-      "middle": 453.69,
-      "lower": 422.74
+      "upper": 485.36,
+      "middle": 454.95,
+      "lower": 424.54
     },
     "DonchianChannel": {
       "upper": 491.35,
       "lower": 402.3
     },
     "ATR": {
-      "value": 16.21
+      "value": 14.68
     },
     "StandardDeviation": {
-      "value": 23.39
+      "value": 22.19
     },
     "OBV": {
-      "value": 228745675,
+      "value": 228431635,
       "signal": "SELL"
     },
     "CMF": {
-      "value": 0.0356,
+      "value": 0.0202,
       "signal": "BUY"
     },
     "VWAP": {
-      "value": 342.81,
+      "value": 343.01,
       "signal": "BUY"
     },
     "EaseOfMovement": {
-      "value": 2784.6497
+      "value": 1080.8239
     }
   }
 }
