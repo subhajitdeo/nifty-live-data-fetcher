@@ -1,22 +1,14 @@
 {
   "symbol": "SBFC",
-  "updated_at": "2026-08-06T12:32:28.284522",
-  "latest_price": 95.29,
-  "final_signal": "BUY",
+  "updated_at": "2026-08-07T11:35:33.515326",
+  "latest_price": 94.25,
+  "final_signal": "STRONG_BUY",
   "signal_summary": {
     "buy_signals": 4,
-    "sell_signals": 3,
+    "sell_signals": 1,
     "total_indicators": 10
   },
   "candles": [
-    {
-      "time": "2025-08-06",
-      "open": 103.98999786376953,
-      "high": 104.55000305175781,
-      "low": 101.69999694824219,
-      "close": 102.5,
-      "volume": 1063308
-    },
     {
       "time": "2025-08-07",
       "open": 102.01000213623047,
@@ -1970,14 +1962,6 @@
       "volume": 1135255
     },
     {
-      "time": "2026-07-31",
-      "open": 90.2699966430664,
-      "high": 90.98999786376953,
-      "low": 89.9000015258789,
-      "close": 90.4000015258789,
-      "volume": 597593
-    },
-    {
       "time": "2026-08-03",
       "open": 90.4000015258789,
       "high": 92.3499984741211,
@@ -2007,45 +1991,53 @@
       "high": 95.75,
       "low": 93.0199966430664,
       "close": 95.29000091552734,
-      "volume": 1432380
+      "volume": 1432387
+    },
+    {
+      "time": "2026-08-07",
+      "open": 95.29000091552734,
+      "high": 95.30000305175781,
+      "low": 93.5,
+      "close": 94.25,
+      "volume": 787698
     }
   ],
   "indicators": {
     "RSI": {
-      "value": 54.85,
+      "value": 50.6,
       "signal": "NEUTRAL"
     },
     "StochasticRSI": {
-      "value": 59.86,
+      "value": 35.98,
       "signal": "NEUTRAL"
     },
     "MACD": {
-      "value": 0.24,
+      "value": 0.37,
       "signal": "BUY"
     },
-    "MACD_Histogram": 0.32,
+    "MACD_Histogram": 0.33,
     "CCI": {
-      "value": 148.28,
+      "value": 113.73,
       "signal": "SELL"
     },
     "Williams_R": {
-      "value": -6.4,
-      "signal": "SELL"
+      "value": -20.86,
+      "signal": "NEUTRAL"
     },
     "ROC": {
-      "value": 1.93,
+      "value": 0.81,
       "signal": "BUY"
     },
     "Momentum": {
-      "value": 4.77,
+      "value": 3.73,
       "signal": "BUY"
     },
     "MFI": {
-      "value": 54.66,
+      "value": 50.5,
       "signal": "NEUTRAL"
     },
     "Ultimate_Oscillator": {
-      "value": 54.45,
+      "value": 53.84,
       "signal": "NEUTRAL"
     },
     "ADX": {
@@ -2062,65 +2054,65 @@
       "signal": "BUY"
     },
     "Aroon": {
-      "up": 4.0,
+      "up": 8.0,
       "down": 32.0,
       "signal": "NEUTRAL"
     },
     "EMA20": {
-      "value": 92.13,
+      "value": 92.41,
       "signal": "BUY"
     },
     "EMA50": {
-      "value": 92.13,
+      "value": 92.26,
       "signal": "BUY"
     },
     "EMA100": {
-      "value": 93.03,
+      "value": 93.11,
       "signal": "BUY"
     },
     "EMA200": {
-      "value": 95.62,
+      "value": 95.67,
       "signal": "SELL"
     },
     "SMA20": {
-      "value": 92.24,
+      "value": 92.43,
       "signal": "BUY"
     },
     "SMA50": {
-      "value": 92.03,
+      "value": 92.11,
       "signal": "BUY"
     },
     "SMA200": {
-      "value": 97.14,
+      "value": 97.16,
       "signal": "SELL"
     },
     "BollingerBands": {
-      "upper": 95.21,
-      "middle": 92.24,
-      "lower": 89.26,
-      "signal": "SELL"
+      "upper": 95.4,
+      "middle": 92.43,
+      "lower": 89.45,
+      "signal": "NEUTRAL"
     },
     "KeltnerChannel": {
-      "upper": 96.4,
-      "middle": 92.13,
-      "lower": 87.87
+      "upper": 96.75,
+      "middle": 92.41,
+      "lower": 88.06
     },
     "DonchianChannel": {
       "upper": 95.75,
       "lower": 88.56
     },
     "ATR": {
-      "value": 2.21
+      "value": 2.27
     },
     "StandardDeviation": {
       "value": 1.49
     },
     "OBV": {
-      "value": 7306482,
-      "signal": "BUY"
+      "value": 4857890,
+      "signal": "SELL"
     },
     "CMF": {
-      "value": 0.1414,
+      "value": 0.1371,
       "signal": "BUY"
     },
     "VWAP": {
@@ -2128,7 +2120,7 @@
       "signal": "SELL"
     },
     "EaseOfMovement": {
-      "value": 25.1823
+      "value": 24.6019
     }
   }
 }
