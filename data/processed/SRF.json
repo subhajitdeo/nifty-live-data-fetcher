@@ -1,22 +1,14 @@
 {
   "symbol": "SRF",
-  "updated_at": "2026-08-13T11:36:09.874312",
-  "latest_price": 2608.7,
-  "final_signal": "SELL",
+  "updated_at": "2026-08-14T11:34:21.478002",
+  "latest_price": 2606.0,
+  "final_signal": "STRONG_SELL",
   "signal_summary": {
-    "buy_signals": 2,
-    "sell_signals": 3,
+    "buy_signals": 1,
+    "sell_signals": 4,
     "total_indicators": 10
   },
   "candles": [
-    {
-      "time": "2025-08-13",
-      "open": 2859.89990234375,
-      "high": 2887.300048828125,
-      "low": 2845.300048828125,
-      "close": 2855.199951171875,
-      "volume": 220747
-    },
     {
       "time": "2025-08-14",
       "open": 2852.10009765625,
@@ -2007,49 +1999,57 @@
       "high": 2616.39990234375,
       "low": 2556.0,
       "close": 2608.699951171875,
-      "volume": 336144
+      "volume": 336289
+    },
+    {
+      "time": "2026-08-14",
+      "open": 2609.0,
+      "high": 2616.699951171875,
+      "low": 2587.60009765625,
+      "close": 2606.0,
+      "volume": 168378
     }
   ],
   "indicators": {
     "RSI": {
-      "value": 38.06,
+      "value": 42.71,
       "signal": "NEUTRAL"
     },
     "StochasticRSI": {
-      "value": 75.09,
-      "signal": "NEUTRAL"
-    },
-    "MACD": {
-      "value": -40.98,
+      "value": 92.47,
       "signal": "SELL"
     },
-    "MACD_Histogram": -6.6,
+    "MACD": {
+      "value": -39.58,
+      "signal": "SELL"
+    },
+    "MACD_Histogram": -4.16,
     "CCI": {
-      "value": -68.27,
+      "value": -59.98,
       "signal": "NEUTRAL"
     },
     "Williams_R": {
-      "value": -59.32,
+      "value": -50.44,
       "signal": "NEUTRAL"
     },
     "ROC": {
-      "value": -0.94,
+      "value": -1.43,
       "signal": "SELL"
     },
     "Momentum": {
-      "value": 3.9,
-      "signal": "BUY"
+      "value": -16.5,
+      "signal": "SELL"
     },
     "MFI": {
-      "value": 19.04,
-      "signal": "BUY"
+      "value": 26.91,
+      "signal": "NEUTRAL"
     },
     "Ultimate_Oscillator": {
-      "value": 48.2,
+      "value": 49.27,
       "signal": "NEUTRAL"
     },
     "ADX": {
-      "value": 46.88,
+      "value": 45.49,
       "signal": "STRONG"
     },
     "SuperTrend": {
@@ -2062,73 +2062,73 @@
       "signal": "SELL"
     },
     "Aroon": {
-      "up": 72.0,
-      "down": 12.0,
+      "up": 76.0,
+      "down": 16.0,
       "signal": "BUY"
     },
     "EMA20": {
-      "value": 2653.85,
+      "value": 2649.29,
       "signal": "SELL"
     },
     "EMA50": {
-      "value": 2686.36,
+      "value": 2683.21,
       "signal": "SELL"
     },
     "EMA100": {
-      "value": 2696.01,
+      "value": 2694.14,
       "signal": "SELL"
     },
     "EMA200": {
-      "value": 2733.4,
+      "value": 2731.04,
       "signal": "SELL"
     },
     "SMA20": {
-      "value": 2676.08,
+      "value": 2662.64,
       "signal": "SELL"
     },
     "SMA50": {
-      "value": 2715.38,
+      "value": 2713.4,
       "signal": "SELL"
     },
     "SMA200": {
-      "value": 2750.47,
+      "value": 2748.36,
       "signal": "SELL"
     },
     "BollingerBands": {
-      "upper": 2893.78,
-      "middle": 2676.08,
-      "lower": 2458.38,
+      "upper": 2862.05,
+      "middle": 2662.64,
+      "lower": 2463.24,
       "signal": "NEUTRAL"
     },
     "KeltnerChannel": {
-      "upper": 2785.39,
-      "middle": 2653.85,
-      "lower": 2522.31
+      "upper": 2777.55,
+      "middle": 2649.29,
+      "lower": 2521.03
     },
     "DonchianChannel": {
       "upper": 2970.0,
       "lower": 2550.0
     },
     "ATR": {
-      "value": 44.23
+      "value": 41.84
     },
     "StandardDeviation": {
-      "value": 108.85
+      "value": 99.7
     },
     "OBV": {
-      "value": -1612577,
-      "signal": "BUY"
+      "value": -1620073,
+      "signal": "SELL"
     },
     "CMF": {
-      "value": -0.3402,
+      "value": -0.3322,
       "signal": "SELL"
     },
     "VWAP": {
-      "value": 2761.7,
+      "value": 2761.3,
       "signal": "SELL"
     },
     "EaseOfMovement": {
-      "value": -57079.0477
+      "value": -35808.8183
     }
   }
 }
