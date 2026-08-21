@@ -1,22 +1,14 @@
 {
   "symbol": "YESBANK",
-  "updated_at": "2026-08-20T11:13:27.888445",
-  "latest_price": 22.74,
-  "final_signal": "SELL",
+  "updated_at": "2026-08-21T11:13:06.304915",
+  "latest_price": 22.8,
+  "final_signal": "NEUTRAL",
   "signal_summary": {
     "buy_signals": 2,
-    "sell_signals": 3,
+    "sell_signals": 2,
     "total_indicators": 10
   },
   "candles": [
-    {
-      "time": "2025-08-20",
-      "open": 19.34000015258789,
-      "high": 19.43000030517578,
-      "low": 19.31999969482422,
-      "close": 19.360000610351562,
-      "volume": 40828150
-    },
     {
       "time": "2025-08-21",
       "open": 19.3799991607666,
@@ -1842,6 +1834,14 @@
       "volume": 76817417
     },
     {
+      "time": "2026-07-22",
+      "open": 23.15999984741211,
+      "high": 23.75,
+      "low": 23.0,
+      "close": 23.239999771118164,
+      "volume": 167363949
+    },
+    {
       "time": "2026-07-23",
       "open": 23.200000762939453,
       "high": 23.200000762939453,
@@ -2007,49 +2007,57 @@
       "high": 22.959999084472656,
       "low": 22.729999542236328,
       "close": 22.739999771118164,
-      "volume": 34361741
+      "volume": 34376881
+    },
+    {
+      "time": "2026-08-21",
+      "open": 22.739999771118164,
+      "high": 22.8700008392334,
+      "low": 22.6299991607666,
+      "close": 22.799999237060547,
+      "volume": 33822601
     }
   ],
   "indicators": {
     "RSI": {
-      "value": 49.3,
+      "value": 44.95,
       "signal": "NEUTRAL"
     },
     "StochasticRSI": {
-      "value": 80.8,
-      "signal": "SELL"
+      "value": 58.5,
+      "signal": "NEUTRAL"
     },
     "MACD": {
-      "value": -0.18,
+      "value": -0.16,
       "signal": "BUY"
     },
-    "MACD_Histogram": 0.02,
+    "MACD_Histogram": 0.03,
     "CCI": {
-      "value": 3.4,
+      "value": -22.83,
       "signal": "NEUTRAL"
     },
     "Williams_R": {
-      "value": -56.16,
+      "value": -47.95,
       "signal": "NEUTRAL"
     },
     "ROC": {
-      "value": -1.13,
+      "value": -0.74,
       "signal": "SELL"
     },
     "Momentum": {
-      "value": 0.06,
+      "value": 0.11,
       "signal": "BUY"
     },
     "MFI": {
-      "value": 69.27,
+      "value": 63.7,
       "signal": "NEUTRAL"
     },
     "Ultimate_Oscillator": {
-      "value": 52.19,
+      "value": 48.68,
       "signal": "NEUTRAL"
     },
     "ADX": {
-      "value": 6.85,
+      "value": 10.64,
       "signal": "WEAK"
     },
     "SuperTrend": {
@@ -2062,32 +2070,32 @@
       "signal": "SELL"
     },
     "Aroon": {
-      "up": 100.0,
-      "down": 8.0,
+      "up": 92.0,
+      "down": 12.0,
       "signal": "BUY"
     },
     "EMA20": {
-      "value": 22.9,
+      "value": 22.89,
       "signal": "SELL"
     },
     "EMA50": {
-      "value": 23.0,
+      "value": 22.99,
       "signal": "SELL"
     },
     "EMA100": {
-      "value": 22.58,
+      "value": 22.6,
       "signal": "BUY"
     },
     "EMA200": {
-      "value": 21.95,
+      "value": 21.98,
       "signal": "BUY"
     },
     "SMA20": {
-      "value": 22.81,
+      "value": 22.8,
       "signal": "SELL"
     },
     "SMA50": {
-      "value": 23.57,
+      "value": 23.58,
       "signal": "SELL"
     },
     "SMA200": {
@@ -2095,14 +2103,14 @@
       "signal": "BUY"
     },
     "BollingerBands": {
-      "upper": 23.12,
-      "middle": 22.81,
+      "upper": 23.1,
+      "middle": 22.8,
       "lower": 22.5,
       "signal": "NEUTRAL"
     },
     "KeltnerChannel": {
-      "upper": 23.53,
-      "middle": 22.9,
+      "upper": 23.5,
+      "middle": 22.89,
       "lower": 22.27
     },
     "DonchianChannel": {
@@ -2116,19 +2124,19 @@
       "value": 0.15
     },
     "OBV": {
-      "value": 3039523337,
-      "signal": "NEUTRAL"
+      "value": 3199881737,
+      "signal": "BUY"
     },
     "CMF": {
-      "value": 0.0647,
+      "value": 0.0442,
       "signal": "BUY"
     },
     "VWAP": {
-      "value": 21.86,
+      "value": 21.87,
       "signal": "BUY"
     },
     "EaseOfMovement": {
-      "value": -0.0004
+      "value": -0.0159
     }
   }
 }
