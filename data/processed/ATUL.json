@@ -1,22 +1,14 @@
 {
   "symbol": "ATUL",
-  "updated_at": "2026-08-25T11:12:47.901371",
-  "latest_price": 6492.5,
-  "final_signal": "BUY",
+  "updated_at": "2026-08-26T11:15:22.396137",
+  "latest_price": 6526.0,
+  "final_signal": "NEUTRAL",
   "signal_summary": {
-    "buy_signals": 5,
+    "buy_signals": 3,
     "sell_signals": 3,
     "total_indicators": 10
   },
   "candles": [
-    {
-      "time": "2025-08-25",
-      "open": 6545.0,
-      "high": 6549.0,
-      "low": 6450.5,
-      "close": 6506.5,
-      "volume": 14267
-    },
     {
       "time": "2025-08-26",
       "open": 6507.0,
@@ -2002,54 +1994,70 @@
       "volume": 28223
     },
     {
+      "time": "2026-08-24",
+      "open": 6509.5,
+      "high": 6565.5,
+      "low": 6408.0,
+      "close": 6425.0,
+      "volume": 41601
+    },
+    {
       "time": "2026-08-25",
       "open": 6425.0,
       "high": 6510.0,
       "low": 6386.5,
       "close": 6492.5,
       "volume": 30738
+    },
+    {
+      "time": "2026-08-26",
+      "open": 6537.0,
+      "high": 6569.0,
+      "low": 6474.5,
+      "close": 6526.0,
+      "volume": 23384
     }
   ],
   "indicators": {
     "RSI": {
-      "value": 23.73,
-      "signal": "BUY"
+      "value": 31.69,
+      "signal": "NEUTRAL"
     },
     "StochasticRSI": {
-      "value": 0.0,
+      "value": 17.45,
       "signal": "BUY"
     },
     "MACD": {
-      "value": 9.05,
+      "value": -12.4,
       "signal": "SELL"
     },
-    "MACD_Histogram": -46.37,
+    "MACD_Histogram": -43.6,
     "CCI": {
-      "value": -191.05,
+      "value": -103.12,
       "signal": "BUY"
     },
     "Williams_R": {
-      "value": -82.92,
-      "signal": "BUY"
+      "value": -77.52,
+      "signal": "NEUTRAL"
     },
     "ROC": {
-      "value": -4.47,
+      "value": -4.79,
       "signal": "SELL"
     },
     "Momentum": {
-      "value": -361.5,
+      "value": -370.5,
       "signal": "SELL"
     },
     "MFI": {
-      "value": 48.34,
+      "value": 51.26,
       "signal": "NEUTRAL"
     },
     "Ultimate_Oscillator": {
-      "value": 29.18,
-      "signal": "BUY"
+      "value": 33.21,
+      "signal": "NEUTRAL"
     },
     "ADX": {
-      "value": 32.72,
+      "value": 32.4,
       "signal": "STRONG"
     },
     "SuperTrend": {
@@ -2062,73 +2070,73 @@
       "signal": "SELL"
     },
     "Aroon": {
-      "up": 48.0,
+      "up": 56.0,
       "down": 96.0,
       "signal": "NEUTRAL"
     },
     "EMA20": {
-      "value": 6633.48,
+      "value": 6605.83,
       "signal": "SELL"
     },
     "EMA50": {
-      "value": 6597.98,
+      "value": 6588.73,
       "signal": "SELL"
     },
     "EMA100": {
-      "value": 6560.77,
+      "value": 6555.85,
       "signal": "SELL"
     },
     "EMA200": {
-      "value": 6486.38,
+      "value": 6466.23,
       "signal": "BUY"
     },
     "SMA20": {
-      "value": 6729.68,
+      "value": 6704.8,
       "signal": "SELL"
     },
     "SMA50": {
-      "value": 6526.72,
-      "signal": "SELL"
+      "value": 6524.96,
+      "signal": "BUY"
     },
     "SMA200": {
-      "value": 6389.21,
+      "value": 6396.94,
       "signal": "BUY"
     },
     "BollingerBands": {
-      "upper": 6977.3,
-      "middle": 6729.68,
-      "lower": 6482.05,
+      "upper": 6993.74,
+      "middle": 6704.8,
+      "lower": 6415.86,
       "signal": "NEUTRAL"
     },
     "KeltnerChannel": {
-      "upper": 6961.18,
-      "middle": 6633.48,
-      "lower": 6305.78
+      "upper": 6908.13,
+      "middle": 6605.83,
+      "lower": 6303.53
     },
     "DonchianChannel": {
       "upper": 7007.0,
       "lower": 6386.5
     },
     "ATR": {
-      "value": 157.21
+      "value": 154.36
     },
     "StandardDeviation": {
-      "value": 123.81
+      "value": 144.47
     },
     "OBV": {
-      "value": 1767997,
-      "signal": "SELL"
+      "value": 1937229,
+      "signal": "BUY"
     },
     "CMF": {
-      "value": -0.3879,
+      "value": -0.4521,
       "signal": "SELL"
     },
     "VWAP": {
-      "value": 6373.54,
+      "value": 6374.18,
       "signal": "BUY"
     },
     "EaseOfMovement": {
-      "value": -18119672.46
+      "value": -16908600.1275
     }
   }
 }
