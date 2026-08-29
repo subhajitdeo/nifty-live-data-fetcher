@@ -1,22 +1,14 @@
 {
   "symbol": "SUZLON",
-  "updated_at": "2026-08-28T21:16:06.055543",
-  "latest_price": 46.94,
-  "final_signal": "NEUTRAL",
+  "updated_at": "2026-08-29T15:21:39.655382",
+  "latest_price": 46.79,
+  "final_signal": "BUY",
   "signal_summary": {
-    "buy_signals": 2,
+    "buy_signals": 3,
     "sell_signals": 2,
     "total_indicators": 10
   },
   "candles": [
-    {
-      "time": "2025-08-28",
-      "open": 57.310001373291016,
-      "high": 57.310001373291016,
-      "low": 55.88999938964844,
-      "close": 56.31999969482422,
-      "volume": 57742437
-    },
     {
       "time": "2025-08-29",
       "open": 56.349998474121094,
@@ -2008,48 +2000,64 @@
       "low": 46.880001068115234,
       "close": 46.939998626708984,
       "volume": 28238916
+    },
+    {
+      "time": "2026-08-27",
+      "open": 47.0,
+      "high": 47.38999938964844,
+      "low": 46.369998931884766,
+      "close": 46.810001373291016,
+      "volume": 23836185
+    },
+    {
+      "time": "2026-08-28",
+      "open": 46.689998626708984,
+      "high": 47.04999923706055,
+      "low": 46.5,
+      "close": 46.790000915527344,
+      "volume": 23944393
     }
   ],
   "indicators": {
     "RSI": {
-      "value": 41.83,
+      "value": 44.58,
       "signal": "NEUTRAL"
     },
     "StochasticRSI": {
-      "value": 61.27,
+      "value": 67.27,
       "signal": "NEUTRAL"
     },
     "MACD": {
-      "value": -1.25,
+      "value": -1.15,
       "signal": "BUY"
     },
-    "MACD_Histogram": 0.16,
+    "MACD_Histogram": 0.18,
     "CCI": {
-      "value": -65.74,
+      "value": -89.04,
       "signal": "NEUTRAL"
     },
     "Williams_R": {
-      "value": -77.52,
-      "signal": "NEUTRAL"
+      "value": -82.41,
+      "signal": "BUY"
     },
     "ROC": {
       "value": -1.18,
       "signal": "SELL"
     },
     "Momentum": {
-      "value": -0.41,
+      "value": -0.31,
       "signal": "SELL"
     },
     "MFI": {
-      "value": 41.25,
-      "signal": "NEUTRAL"
-    },
-    "Ultimate_Oscillator": {
       "value": 36.34,
       "signal": "NEUTRAL"
     },
+    "Ultimate_Oscillator": {
+      "value": 44.49,
+      "signal": "NEUTRAL"
+    },
     "ADX": {
-      "value": 2.81,
+      "value": 2.05,
       "signal": "WEAK"
     },
     "SuperTrend": {
@@ -2063,72 +2071,72 @@
     },
     "Aroon": {
       "up": 100.0,
-      "down": 84.0,
+      "down": 92.0,
       "signal": "NEUTRAL"
     },
     "EMA20": {
-      "value": 48.05,
+      "value": 47.83,
       "signal": "SELL"
     },
     "EMA50": {
-      "value": 50.21,
+      "value": 49.95,
       "signal": "SELL"
     },
     "EMA100": {
-      "value": 51.04,
+      "value": 50.88,
       "signal": "SELL"
     },
     "EMA200": {
-      "value": 51.61,
+      "value": 51.52,
       "signal": "SELL"
     },
     "SMA20": {
-      "value": 47.55,
+      "value": 47.46,
       "signal": "SELL"
     },
     "SMA50": {
-      "value": 51.85,
+      "value": 51.37,
       "signal": "SELL"
     },
     "SMA200": {
-      "value": 50.61,
+      "value": 50.5,
       "signal": "SELL"
     },
     "BollingerBands": {
-      "upper": 48.74,
-      "middle": 47.55,
-      "lower": 46.36,
+      "upper": 48.71,
+      "middle": 47.46,
+      "lower": 46.21,
       "signal": "NEUTRAL"
     },
     "KeltnerChannel": {
-      "upper": 50.07,
-      "middle": 48.05,
-      "lower": 46.03
+      "upper": 49.73,
+      "middle": 47.83,
+      "lower": 45.92
     },
     "DonchianChannel": {
       "upper": 49.32,
-      "lower": 46.22
+      "lower": 46.25
     },
     "ATR": {
-      "value": 0.96
+      "value": 0.89
     },
     "StandardDeviation": {
-      "value": 0.59
+      "value": 0.62
     },
     "OBV": {
-      "value": 145998912,
-      "signal": "BUY"
+      "value": 40475897,
+      "signal": "SELL"
     },
     "CMF": {
-      "value": -0.0965,
+      "value": -0.2182,
       "signal": "SELL"
     },
     "VWAP": {
-      "value": 52.1,
+      "value": 52.07,
       "signal": "SELL"
     },
     "EaseOfMovement": {
-      "value": -0.1055
+      "value": -0.1162
     }
   }
 }
