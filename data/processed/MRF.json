@@ -1,22 +1,14 @@
 {
   "symbol": "MRF",
-  "updated_at": "2026-09-03T14:46:11.674335",
-  "latest_price": 131880.0,
-  "final_signal": "SELL",
+  "updated_at": "2026-09-04T14:35:30.593688",
+  "latest_price": 130510.0,
+  "final_signal": "BUY",
   "signal_summary": {
-    "buy_signals": 2,
+    "buy_signals": 4,
     "sell_signals": 3,
     "total_indicators": 10
   },
   "candles": [
-    {
-      "time": "2025-09-02",
-      "open": 145200.0,
-      "high": 155000.0,
-      "low": 144185.0,
-      "close": 153885.0,
-      "volume": 32632
-    },
     {
       "time": "2025-09-03",
       "open": 153885.0,
@@ -2015,49 +2007,57 @@
       "high": 132865.0,
       "low": 130700.0,
       "close": 131880.0,
-      "volume": 4250
+      "volume": 4254
+    },
+    {
+      "time": "2026-09-03",
+      "open": 132800.0,
+      "high": 132800.0,
+      "low": 130100.0,
+      "close": 130510.0,
+      "volume": 6239
     }
   ],
   "indicators": {
     "RSI": {
-      "value": 52.9,
+      "value": 39.57,
       "signal": "NEUTRAL"
     },
     "StochasticRSI": {
-      "value": 62.76,
-      "signal": "NEUTRAL"
+      "value": 0.0,
+      "signal": "BUY"
     },
     "MACD": {
-      "value": 58.37,
+      "value": -133.17,
       "signal": "SELL"
     },
-    "MACD_Histogram": -177.04,
+    "MACD_Histogram": -294.86,
     "CCI": {
-      "value": -102.85,
+      "value": -138.2,
       "signal": "BUY"
     },
     "Williams_R": {
-      "value": -74.81,
-      "signal": "NEUTRAL"
+      "value": -92.81,
+      "signal": "BUY"
     },
     "ROC": {
-      "value": -0.85,
+      "value": -2.24,
       "signal": "SELL"
     },
     "Momentum": {
-      "value": -1750.0,
+      "value": -3490.0,
       "signal": "SELL"
     },
     "MFI": {
-      "value": 63.13,
+      "value": 53.2,
       "signal": "NEUTRAL"
     },
     "Ultimate_Oscillator": {
-      "value": 45.92,
+      "value": 42.24,
       "signal": "NEUTRAL"
     },
     "ADX": {
-      "value": 19.59,
+      "value": 9.53,
       "signal": "WEAK"
     },
     "SuperTrend": {
@@ -2067,76 +2067,76 @@
       "signal": "SELL"
     },
     "Parabolic_SAR": {
-      "signal": "BUY"
+      "signal": "SELL"
     },
     "Aroon": {
-      "up": 12.0,
-      "down": 68.0,
-      "signal": "NEUTRAL"
+      "up": 16.0,
+      "down": 72.0,
+      "signal": "SELL"
     },
     "EMA20": {
-      "value": 132879.38,
+      "value": 132653.72,
       "signal": "SELL"
     },
     "EMA50": {
-      "value": 132313.2,
+      "value": 132242.35,
       "signal": "SELL"
     },
     "EMA100": {
-      "value": 132880.3,
+      "value": 132811.34,
       "signal": "SELL"
     },
     "EMA200": {
-      "value": 136659.4,
+      "value": 136327.19,
       "signal": "SELL"
     },
     "SMA20": {
-      "value": 132949.5,
+      "value": 132778.5,
       "signal": "SELL"
     },
     "SMA50": {
-      "value": 132562.9,
+      "value": 132582.1,
       "signal": "SELL"
     },
     "SMA200": {
-      "value": 137262.62,
+      "value": 137129.5,
       "signal": "SELL"
     },
     "BollingerBands": {
-      "upper": 135118.73,
-      "middle": 132949.5,
-      "lower": 130780.27,
+      "upper": 135142.09,
+      "middle": 132778.5,
+      "lower": 130414.91,
       "signal": "NEUTRAL"
     },
     "KeltnerChannel": {
-      "upper": 136979.88,
-      "middle": 132879.38,
-      "lower": 128778.88
+      "upper": 136839.22,
+      "middle": 132653.72,
+      "lower": 128468.22
     },
     "DonchianChannel": {
       "upper": 135800.0,
       "lower": 129570.0
     },
     "ATR": {
-      "value": 2145.0
+      "value": 2102.5
     },
     "StandardDeviation": {
-      "value": 1084.61
+      "value": 1181.79
     },
     "OBV": {
-      "value": 11988,
+      "value": -8963,
       "signal": "SELL"
     },
     "CMF": {
-      "value": -0.0509,
+      "value": -0.0847,
       "signal": "SELL"
     },
     "VWAP": {
-      "value": 140398.33,
+      "value": 140157.09,
       "signal": "SELL"
     },
     "EaseOfMovement": {
-      "value": 3081927008.4916
+      "value": -4166923898.4059
     }
   }
 }
