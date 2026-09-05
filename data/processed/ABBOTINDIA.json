@@ -1,22 +1,14 @@
 {
   "symbol": "ABBOTINDIA",
-  "updated_at": "2026-09-04T14:34:50.665424",
-  "latest_price": 25945.0,
-  "final_signal": "NEUTRAL",
+  "updated_at": "2026-09-05T13:34:16.887108",
+  "latest_price": 26065.0,
+  "final_signal": "STRONG_SELL",
   "signal_summary": {
-    "buy_signals": 3,
-    "sell_signals": 3,
+    "buy_signals": 1,
+    "sell_signals": 4,
     "total_indicators": 10
   },
   "candles": [
-    {
-      "time": "2025-09-03",
-      "open": 32495.0,
-      "high": 32775.0,
-      "low": 32155.0,
-      "close": 32575.0,
-      "volume": 5036
-    },
     {
       "time": "2025-09-04",
       "open": 32565.0,
@@ -2024,48 +2016,56 @@
       "low": 25905.0,
       "close": 25945.0,
       "volume": 3151
+    },
+    {
+      "time": "2026-09-04",
+      "open": 25945.0,
+      "high": 26365.0,
+      "low": 25810.0,
+      "close": 26065.0,
+      "volume": 8802
     }
   ],
   "indicators": {
     "RSI": {
-      "value": 28.27,
-      "signal": "BUY"
-    },
-    "StochasticRSI": {
-      "value": 68.24,
+      "value": 33.4,
       "signal": "NEUTRAL"
     },
-    "MACD": {
-      "value": -378.92,
+    "StochasticRSI": {
+      "value": 100.0,
       "signal": "SELL"
     },
-    "MACD_Histogram": -72.66,
+    "MACD": {
+      "value": -371.03,
+      "signal": "SELL"
+    },
+    "MACD_Histogram": -51.81,
     "CCI": {
-      "value": -80.04,
+      "value": -68.99,
       "signal": "NEUTRAL"
     },
     "Williams_R": {
-      "value": -83.68,
-      "signal": "BUY"
+      "value": -70.17,
+      "signal": "NEUTRAL"
     },
     "ROC": {
-      "value": -2.39,
+      "value": -1.29,
       "signal": "SELL"
     },
     "Momentum": {
-      "value": -175.0,
+      "value": -165.0,
       "signal": "SELL"
     },
     "MFI": {
-      "value": 42.04,
+      "value": 51.71,
       "signal": "NEUTRAL"
     },
     "Ultimate_Oscillator": {
-      "value": 36.92,
+      "value": 36.84,
       "signal": "NEUTRAL"
     },
     "ADX": {
-      "value": 64.68,
+      "value": 43.07,
       "signal": "STRONG"
     },
     "SuperTrend": {
@@ -2075,76 +2075,76 @@
       "signal": "SELL"
     },
     "Parabolic_SAR": {
-      "signal": "SELL"
+      "signal": "BUY"
     },
     "Aroon": {
-      "up": 64.0,
-      "down": 12.0,
+      "up": 68.0,
+      "down": 16.0,
       "signal": "NEUTRAL"
     },
     "EMA20": {
-      "value": 26574.69,
+      "value": 26526.15,
       "signal": "SELL"
     },
     "EMA50": {
-      "value": 26854.23,
+      "value": 26823.26,
       "signal": "SELL"
     },
     "EMA100": {
-      "value": 26936.66,
+      "value": 26916.81,
       "signal": "SELL"
     },
     "EMA200": {
-      "value": 27540.43,
+      "value": 27493.57,
       "signal": "SELL"
     },
     "SMA20": {
-      "value": 26717.0,
+      "value": 26628.5,
       "signal": "SELL"
     },
     "SMA50": {
-      "value": 27057.8,
+      "value": 27067.4,
       "signal": "SELL"
     },
     "SMA200": {
-      "value": 27123.08,
+      "value": 27105.75,
       "signal": "SELL"
     },
     "BollingerBands": {
-      "upper": 28137.7,
-      "middle": 26717.0,
-      "lower": 25296.3,
+      "upper": 27978.35,
+      "middle": 26628.5,
+      "lower": 25278.65,
       "signal": "NEUTRAL"
     },
     "KeltnerChannel": {
-      "upper": 27577.69,
-      "middle": 26574.69,
-      "lower": 25571.69
+      "upper": 27547.15,
+      "middle": 26526.15,
+      "lower": 25505.15
     },
     "DonchianChannel": {
       "upper": 28635.0,
       "lower": 25710.0
     },
     "ATR": {
-      "value": 418.93
+      "value": 422.86
     },
     "StandardDeviation": {
-      "value": 710.35
+      "value": 674.93
     },
     "OBV": {
-      "value": -63184,
-      "signal": "SELL"
+      "value": -51372,
+      "signal": "BUY"
     },
     "CMF": {
-      "value": -0.1666,
+      "value": -0.1795,
       "signal": "SELL"
     },
     "VWAP": {
-      "value": 27619.97,
+      "value": 27603.99,
       "signal": "SELL"
     },
     "EaseOfMovement": {
-      "value": -630773921.8044
+      "value": -449799356.2467
     }
   }
 }
